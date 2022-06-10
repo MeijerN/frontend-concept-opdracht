@@ -7,7 +7,7 @@
         3.2 Other
     4. Areas
         4.1 Header
-        4.2 Posts
+        4.2 Specifications
         4.3 Messages
     5. Media Queries
 ////////////////////////*/
@@ -19,43 +19,35 @@
 /* ------------------------------- 4. Areas ---------------------------------------- */
 /* --------------- 4.1 Header ------------------------- */
 
-.img {
-    max-width: 120px;
-}
-
 .header-title {
     font-size: 42px;
 }
 
-/* --------------- 4.2 Posts ------------------- */
+.p {
+    text-transform: capitalize;
+}
+
+/* --------------- 4.2 Specifications ------------------- */
 
 .main {
     display: flex;
     justify-content: center;
-    background-color: #FDF4F2;
 }
 
 .section {
     flex-basis: 1000px;
-    margin: 0 20px 35px 20px;
+    margin: 0 20px 0 20px;
     padding-top: 50px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.page-title {
-    font-size: 32px;
-}
-
-.h6 {
-    margin-bottom: 50px;
-}
-
-.ul {
-    display: flex;
-    flex-wrap: wrap;
+.link {
+    margin-top: 50px;
+    color: #DD3038;
+    font-family: 'Quicksand', sans-serif, Arial, Verdana;
+    font-weight: 700;
 }
 
 /* --------------- 4.3 Messages --------------------------- */
@@ -65,7 +57,4 @@
     font-weight: 700;
 }
 
-/* --------------- 4.4 Services------------------------ */
-/* --------------- 4.5 Contact ------------------------ */
-/* --------------- 4.6 Footer ------------------------- */
 /* ------------------------------- 5. Media Queries -------------------------------- */

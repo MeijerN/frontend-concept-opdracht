@@ -1,0 +1,47 @@
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Post
+    5. Media Queries
+////////////////////////*/
+/* ------------------------------- 1. Global Styles -------------------------------- */
+/* ------------------------------- 2. Typography ----------------------------------- */
+/* ------------------------------- 3. Layout --------------------------------------- */
+/* --------------- 3.1 Reusables ----------------------- */
+/* --------------- 3.2 Other --------------------------- */
+/* ------------------------------- 4. Areas ---------------------------------------- */
+/* --------------- 4.1 Post ------------------------- */
+
+.article {
+    flex-basis: 312px;
+    min-height: 180px;
+    flex-shrink: 0;
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 50px -4px rgba(0,0,0,0.25);
+}
+
+.post-title {
+    text-decoration: none;
+    color: #292929;
+    font-family: 'Quicksand', sans-serif, Arial, Verdana;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.link {
+    color: #DD3038;
+    font-family: 'Quicksand', sans-serif, Arial, Verdana;
+    font-weight: 700;
+}
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
